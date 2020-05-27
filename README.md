@@ -37,10 +37,10 @@ AR module：https://github.com/juangallostra/augmented-reality
 
 ## structure
 
-![架构](structure.jpg)
+![架构](https://github.com/YuHsin1998/Indoor-Navigation-System/blob/master/structure.jpg)
 系统包括AR模块，导航模块和SLAM模块。
 ## Data transmission method
-![各模块传递信息方式](ros.jpg)
+![各模块传递信息方式](https://github.com/YuHsin1998/Indoor-Navigation-System/blob/master/ros.jpg)
 
 由于系统使用多线程执行和多语言编写，系统内部信息传递较为复杂，设计 各模块信息传递利用 ROS 系统，通过发表、订阅话题的方式进行。
 
